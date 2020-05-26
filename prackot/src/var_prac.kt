@@ -16,7 +16,7 @@ fun main(){
     d=null
     d?.let{println("this is not null ${d}")}
 
-    // let <-> 널일 때 default 지정해주기 
+    // let <-> 널일 때 default 지정해주기
     println("${d?:"st"}")
 
     //array
