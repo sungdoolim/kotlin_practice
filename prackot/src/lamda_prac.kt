@@ -31,8 +31,4 @@ fun main(){
     println(invokelamda(a2,5))
 
 
-
-
-
-
 }
