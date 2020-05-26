@@ -16,6 +16,9 @@ fun main(){
     d=null
     d?.let{println("this is not null ${d}")}
 
+    // let <-> 널일 때 default 지정해주기 
+    println("${d?:"st"}")
+
     //array
     var e=arrayOf(1,3,5)
     var elen=e.size
@@ -47,6 +50,6 @@ fun main(){
         print("${f.get(i)} ")
     }
     println()
-    
+
 
 }
